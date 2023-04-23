@@ -1,0 +1,13 @@
+server:
+  port: 9002
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/msdb
+    username: postgres
+    password: admin
+    driver-class-name: org.postgresql.Driver
+
+department:
+  service:
+    url: http://localhost:9001/department
